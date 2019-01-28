@@ -1,0 +1,5 @@
+---
+environment: dev
+- hosts: webserver01
+    - roles: webserver
+    - ip address: 10.0.10.1
