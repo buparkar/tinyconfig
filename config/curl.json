@@ -1,0 +1,7 @@
+{
+  "curl-3.0" : {
+                  "package name" : "curl",
+                  "version" : "3.0",
+                   "ensured" : "installed"
+          }
+ }

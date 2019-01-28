@@ -1,0 +1,19 @@
+{
+  "php72" : {
+                  "package name" : "php",
+                  "version" : "7.2",
+                  "ensured" : "installed",
+                  "dependency" : [ 
+                          { "directory" : "/etc/php/7.2/" },
+                          { "directory" : "/etc/php/7.2/apache2"},
+                          { "directory" : "/var/www/html" },
+                          { "module" : "apache2" }
+                  ],
+                  "config_files" : [
+                          {  "source" : "../config/php/php.ini" ,
+                              "dest" : "'/etc/php/7.2/apache2/php.ini" },
+                          {  "source" : "../config/php/php.info" ,
+                             "dest" : "/var/www/html/php.ini"
+                           } ],
+          }
+ }

@@ -1,0 +1,14 @@
+{
+  "apache-2" : {
+                  "package name" : "apache2",
+                  "version" : "2.0",
+                  "ensure" : "installed",
+                  "config_files" : [
+                          {  "source" : "../config/apache2/index.html" ,
+                              "dest" : "/var/www/html/index.html" },
+                           { "source" : "../config/php/apache2/php.ini", 
+                             "dest" : "/etc/php/7.2/apache2/php.ini"
+                           } ],
+                   "runnable" : "/etc/init.d/apache2 start"
+          }
+ }
