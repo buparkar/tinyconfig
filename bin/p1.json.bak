@@ -1,0 +1,81 @@
+{
+  "Node-01" : [
+          { "NAME" :"webserver-01" },
+          { "IP ADDRESS" : "10.0.10.1" },
+          { "Modules" :  [ {
+                  "name" : "apache2",
+                  "version" : "2.0",
+                  "Config_files" : 
+                          { "../config/apache2/index.html" : "/var/www/html/index.html" ,
+                            "../config/php/apache2/php.ini" : "/etc/php/7.2/apache2/php.ini"
+                           }
+          },
+          {
+                  "name" : "php",
+                  "version" : "7.2",
+                  "Config_files" : 
+                          { "../config/php/php.info" : "/var/www/html/php.info" ,
+                            "../config/php/apache2/php.ini" : "/etc/php/7.2/apache2/php.ini"
+                           }
+          },
+          {
+                  "name" : "curl",
+                  "version" : "3.0"
+          }
+          ] 
+          }
+      ],
+
+  "Node-02" : [
+          { "NAME" :"webserver-02" },
+          { "IP ADDRESS" : "10.0.10.2" },
+          { "Modules" :  [ {
+                  "name" : "apache2",
+                  "version" : "2.0",
+                  "Config_files" : 
+                          { "../config/apache2/index.html" : "/var/www/html/index.html" ,
+                            "../config/php/apache2/php.ini" : "/etc/php/7.2/apache2/php.ini"
+                           }
+          },
+          {
+                  "name" : "php",
+                  "version" : "7.2",
+                  "Config_files" : 
+                          { "../config/php/php.info" : "/var/www/html/php.info" ,
+                            "../config/php/apache2/php.ini" : "/etc/php/7.2/apache2/php.ini"
+                           }
+          },
+          {
+                  "name" : "curl",
+                  "version" : "3.0"
+          }
+          ] 
+          }
+      ],
+  "Node-03" : [
+          { "NAME" :"webserver-03" },
+          { "IP ADDRESS" : "10.0.10.3" },
+          { "Modules" :  [ {
+                  "name" : "apache2",
+                  "version" : "2.0",
+                  "Config_files" : 
+                          { "../config/apache2/index.html" : "/var/www/html/index.html" ,
+                            "../config/php/apache2/php.ini" : "/etc/php/7.2/apache2/php.ini"
+                           }
+          },
+          {
+                  "name" : "php",
+                  "version" : "7.2",
+                  "Config_files" : 
+                          { "../config/php/php.info" : "/var/www/html/php.info" ,
+                            "../config/php/apache2/php.ini" : "/etc/php/7.2/apache2/php.ini"
+                           }
+          },
+          {
+                  "name" : "curl",
+                  "version" : "3.0"
+          }
+          ] 
+          }
+      ]
+ }

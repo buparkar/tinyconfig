@@ -1,0 +1,27 @@
+{
+  "Node-01" : [
+          { "NAME" :"webserver-01" },
+          { "IP ADDRESS" : "10.0.10.1" },
+          { "Service" :   {
+                  "name" : [ "apache2", "php-7.2","curl-3.0"]
+                  }
+          }
+      ],
+  "Node-02" : [
+          { "NAME" :"webserver-02" },
+          { "IP ADDRESS" : "10.0.10.2" },
+          { "Service" :   {
+                  "name" : [ "apache2", "php-7.2","curl-3.0"]
+                  }
+          }
+      ],
+  "Node-03" : [
+          { "NAME" :"webserver-03" },
+          { "IP ADDRESS" : "10.0.10.3" },
+          { "Service" :   {
+                  "name" : [ "apache2", "php-7.2","curl-3.0"]
+                  }
+          }
+      ]
+
+ }
